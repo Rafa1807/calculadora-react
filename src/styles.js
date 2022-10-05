@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
+import calculos from './calculos.jpeg'
+
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: #CACACA;
-
+    background-image: url(${calculos}) ;
+    background-repeat: repeat;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,7 +16,8 @@ export const Container = styled.div`
 
 export const Content = styled.div`
     background-color: #FFFFFF;
-    width: 50%;
+    width: 30%;
+    height: 435px;
 `
 
 export const Row = styled.div`
